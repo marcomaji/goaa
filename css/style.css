@@ -1,0 +1,145 @@
+<style>
+      body{
+    
+ }
+ .form-innerbBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+        .row_form_n {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:3px;
+    max-width:433px;
+}
+/*#select_data select {
+    word-wrap: normal;
+    width: 100%;
+    max-width: 90px;
+}*/
+#select_inputfield input{
+    width:100%;
+}
+div#select_inputfield {
+    width: 100%;
+}
+
+#select_data select {
+    word-wrap: normal;
+    width: 100%;
+    max-width: 105px;
+    height: 50px;
+    /* margin-top: 48px; */
+    border: 1px solid #e1e1e1;
+    /* border: navajowhite; */
+    border-radius: 3px;
+    font-size: 14px;
+    background: #ffffff;
+    /* border-bottom: 1px solid gray; */
+    /* border-radius: 0px; */
+}
+
+#select_data select:focus{
+  outline:none!important;
+}
+
+button#cointiue_btn{
+  margin-top:50px!important;
+}
+#important_messa{
+  margin-bottom:75px;
+}
+
+/*--------*/
+.form-innerbBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    height: 100vh;
+}
+.external_wrapper {
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    padding: 40px 10px;
+    border-radius:3px;
+    margin:15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 49px;
+    padding: 23px 0.75rem;
+    /* padding-left: 0px!important; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    /* border: none; */
+    border: 1px solid #e1e1e1!important;
+    border-radius: 3px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    color: #495057;
+    /* background-color: #f2f2f2; */
+    border-color: gray;
+    outline: 0;
+    box-shadow: none!important;
+    border: none;
+    box-shadow: none!important;
+}
+#important_messa {
+    margin-bottom: 35px;
+}
+button#cointiue_btn {
+    margin-top: 15px!important;
+}
+div#form_login #cointiue_btn {
+    width: 100%;
+    background-color:#0500ff;
+    border-radius: 7px;
+    padding: 9px 45px;
+    margin-top: 16px;
+    color: #ffffff;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    border: 1px solid #0500ff;
+    display: block;
+    opacity: 1;
+}
+#selectPhaseWrap6 {
+    margin: 15px 0 50px;
+}
+
+#selectPhaseWrap6 #size_select {
+    display: flex;
+    justify-content: center;
+}
+
+#selectPhaseWrap6 #size_select button {
+    background: #f5f5f5;
+    color: #495057;
+    padding: 5px 20px;
+    border: 1px solid #b6b6b6;
+    margin: 0 3px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button.option1.active,button.option2.active {
+    background: #0500ff !important;
+    color: #fff !important;
+    border-color: #0500ff !important;
+}
+button.option1:focus, button.option2:focus{
+    outline: none;
+}
